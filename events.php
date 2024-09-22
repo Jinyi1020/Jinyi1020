@@ -6,7 +6,7 @@ $conn = new mysqli('localhost', 'haha', '123', 'haha');
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
-
+ccc
 // Handle search and sorting
 $search = isset($_GET['search']) ? $_GET['search'] : '';
 $sort = isset($_GET['sort']) ? $_GET['sort'] : 'event_date';
